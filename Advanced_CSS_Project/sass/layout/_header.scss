@@ -3,10 +3,12 @@
     background-image: linear-gradient(to right bottom,
         #6fd5cbb7,
         #3997a2a9),
-        url(../img/code.jpg);
+        url(../img/me.jpg);
     background-size: cover;
-    background-position: top;
+    background-position: bottom;
     position: relative;
+
+    -webkit-clip-path:polygonpolygon(0 0, 100% 0, 100% 85%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 
 
